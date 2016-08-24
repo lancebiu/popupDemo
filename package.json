@@ -1,0 +1,31 @@
+{
+  "name": "popup-demo",
+  "version": "1.0.0",
+  "description": "a simple popup demo",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "dev": "webpack --watch --colors",
+    "deploy": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancebiu/popupDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lancebiu/popupDemo/issues"
+  },
+  "homepage": "https://github.com/lancebiu/popupDemo#readme"
+}
